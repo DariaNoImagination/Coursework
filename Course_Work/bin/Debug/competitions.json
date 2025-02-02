@@ -1,0 +1,893 @@
+[
+  {
+    "Name": "Чемпионат по плаванию",
+    "Code": "SWIM2023",
+    "Begin": "2023-06-01T00:00:00",
+    "End": "2023-06-05T00:00:00",
+    "Type": {
+      "Code": "0070011611Я",
+      "Name": "Плавание"
+    },
+    "Organizer": {
+      "Name": "Федерация плавания",
+      "Type": "Организация",
+      "HeldCompetitions": [
+        {
+          "Name": "Чемпионат по плаванию",
+          "Code": "SWIM2023",
+          "Begin": "2023-06-01T00:00:00",
+          "End": "2023-06-05T00:00:00",
+          "Type": {
+            "Code": "0070011611Я",
+            "Name": "Плавание"
+          },
+          "Organizer": {
+            "Name": "Федерация плавания",
+            "Type": "Организация",
+            "HeldCompetitions": []
+          },
+          "Location": {
+            "Capacity": 500,
+            "SportFacilityCode": "04.1000000.2.3",
+            "Name": "Нептун",
+            "YearOfConstruction": 1969,
+            "CompetitionsHeld": []
+          },
+          "Winners": []
+        }
+      ]
+    },
+    "Location": {
+      "Capacity": 500,
+      "SportFacilityCode": "04.1000000.2.3",
+      "Name": "Нептун",
+      "YearOfConstruction": 1969,
+      "CompetitionsHeld": []
+    },
+    "Winners": [
+      {
+        "Sportsman": {
+          "Name": "Екатерина",
+          "SecondName": "Антонова",
+          "Patronymic": "Анатольевна",
+          "Code": 1,
+          "ParticipationInClub": {
+            "Name": "Победители",
+            "Sport": {
+              "Code": "12.12.20.20.205",
+              "Name": "Футбол"
+            },
+            "Members": []
+          },
+          "SportInfoList": [
+            {
+              "Sport": {
+                "Code": "0010002611Я",
+                "Name": "Футбол"
+              },
+              "Category": 5,
+              "Coaches": [
+                {
+                  "Name": "Татьяна",
+                  "SecondName": "Иванова",
+                  "Patronymic": "Ивановна",
+                  "Title": "Заслуженный мастер спорта России",
+                  "Sport": {
+                    "Code": "0010002611Я",
+                    "Name": "Футбол"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            },
+            {
+              "Sport": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Category": 3,
+              "Coaches": [
+                {
+                  "Name": "Павел",
+                  "SecondName": "Павлов",
+                  "Patronymic": "Павлович",
+                  "Title": "",
+                  "Sport": {
+                    "Code": "0070011611Я",
+                    "Name": "Плавание"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            }
+          ],
+          "ParticipationInCompetition": [
+            {
+              "Name": "Чемпионат по плаванию",
+              "Code": "SWIM2023",
+              "Begin": "2023-06-01T00:00:00",
+              "End": "2023-06-05T00:00:00",
+              "Type": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Organizer": {
+                "Name": "Федерация плавания",
+                "Type": "Организация",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 500,
+                "SportFacilityCode": "04.1000000.2.3",
+                "Name": "Нептун",
+                "YearOfConstruction": 1969,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            },
+            {
+              "Name": "Соревнование по футболу",
+              "Code": "FOOTBALL2024",
+              "Begin": "2024-08-20T00:00:00",
+              "End": "2024-09-01T00:00:00",
+              "Type": {
+                "Code": "0010002611Я",
+                "Name": "Футбол"
+              },
+              "Organizer": {
+                "Name": "Юрьев Юрий Юрьевич",
+                "Type": "Организатор",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 46000,
+                "SportFacilityCode": "22.111001031",
+                "Name": "Спартак",
+                "YearOfConstruction": 2014,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            }
+          ]
+        },
+        "Place": 1
+      },
+      {
+        "Sportsman": {
+          "Name": "Елизавета",
+          "SecondName": "Васильева",
+          "Patronymic": "Владимировна",
+          "Code": 45,
+          "ParticipationInClub": {
+            "Name": "Чемпионы",
+            "Sport": {
+              "Code": "0070011611Я",
+              "Name": "Плавание"
+            },
+            "Members": []
+          },
+          "SportInfoList": [
+            {
+              "Sport": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Category": 6,
+              "Coaches": []
+            },
+            {
+              "Sport": {
+                "Code": "0500013611Я",
+                "Name": "Фигурное катание"
+              },
+              "Category": 4,
+              "Coaches": [
+                {
+                  "Name": "Анастасия",
+                  "SecondName": "Борисова",
+                  "Patronymic": "Борисовна",
+                  "Title": "Заслуженный тренер России",
+                  "Sport": {
+                    "Code": "0500013611Я",
+                    "Name": "Фигурное катание"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            }
+          ],
+          "ParticipationInCompetition": [
+            {
+              "Name": "Чемпионат по плаванию",
+              "Code": "SWIM2023",
+              "Begin": "2023-06-01T00:00:00",
+              "End": "2023-06-05T00:00:00",
+              "Type": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Organizer": {
+                "Name": "Федерация плавания",
+                "Type": "Организация",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 500,
+                "SportFacilityCode": "04.1000000.2.3",
+                "Name": "Нептун",
+                "YearOfConstruction": 1969,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            }
+          ]
+        },
+        "Place": 2
+      },
+      {
+        "Sportsman": {
+          "Name": "Иван",
+          "SecondName": "Иванов",
+          "Patronymic": "Алексеевич",
+          "Code": 34,
+          "ParticipationInClub": {
+            "Name": "Успех",
+            "Sport": {
+              "Code": "0140002611Я",
+              "Name": "Баскетбол"
+            },
+            "Members": []
+          },
+          "SportInfoList": [
+            {
+              "Sport": {
+                "Code": "0140002611Я",
+                "Name": "Баскетбол"
+              },
+              "Category": 5,
+              "Coaches": [
+                {
+                  "Name": "Сергей",
+                  "SecondName": "Сидоров",
+                  "Patronymic": "Сергеевич",
+                  "Title": "Заслуженный тренер Роcсии",
+                  "Sport": {
+                    "Code": "0140002611Я",
+                    "Name": "Баскетбол"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            },
+            {
+              "Sport": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Category": 4,
+              "Coaches": [
+                {
+                  "Name": "Павел",
+                  "SecondName": "Павлов",
+                  "Patronymic": "Павлович",
+                  "Title": "",
+                  "Sport": {
+                    "Code": "0070011611Я",
+                    "Name": "Плавание"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            }
+          ],
+          "ParticipationInCompetition": [
+            {
+              "Name": "Чемпионат по плаванию",
+              "Code": "SWIM2023",
+              "Begin": "2023-06-01T00:00:00",
+              "End": "2023-06-05T00:00:00",
+              "Type": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Organizer": {
+                "Name": "Федерация плавания",
+                "Type": "Организация",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 500,
+                "SportFacilityCode": "04.1000000.2.3",
+                "Name": "Нептун",
+                "YearOfConstruction": 1969,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            },
+            {
+              "Name": "Турнир по баскетболу",
+              "Code": "BASKET2024",
+              "Begin": "2024-07-10T00:00:00",
+              "End": "2024-07-15T00:00:00",
+              "Type": {
+                "Code": "0140002611Я",
+                "Name": "Баскетбол"
+              },
+              "Organizer": {
+                "Name": "Юрьев Юрий Юрьевич",
+                "Type": "Организатор",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 500,
+                "SportFacilityCode": "15.100000011",
+                "Name": "Манеж легкоатлетический",
+                "YearOfConstruction": 2020,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            }
+          ]
+        },
+        "Place": 3
+      }
+    ]
+  },
+  {
+    "Name": "Соревнование по футболу",
+    "Code": "FOOTBALL2024",
+    "Begin": "2024-08-20T00:00:00",
+    "End": "2024-09-01T00:00:00",
+    "Type": {
+      "Code": "0010002611Я",
+      "Name": "Футбол"
+    },
+    "Organizer": {
+      "Name": "Юрьев Юрий Юрьевич",
+      "Type": "Организатор",
+      "HeldCompetitions": [
+        {
+          "Name": "Соревнование по футболу",
+          "Code": "FOOTBALL2024",
+          "Begin": "2024-08-20T00:00:00",
+          "End": "2024-09-01T00:00:00",
+          "Type": {
+            "Code": "0010002611Я",
+            "Name": "Футбол"
+          },
+          "Organizer": {
+            "Name": "Федерация баскетбола",
+            "Type": "Организация",
+            "HeldCompetitions": []
+          },
+          "Location": {
+            "Capacity": 46000,
+            "SportFacilityCode": "22.111001031",
+            "Name": "Спартак",
+            "YearOfConstruction": 2014,
+            "CompetitionsHeld": []
+          },
+          "Winners": []
+        }
+      ]
+    },
+    "Location": {
+      "Capacity": 46000,
+      "SportFacilityCode": "22.111001031",
+      "Name": "Спартак",
+      "YearOfConstruction": 2014,
+      "CompetitionsHeld": []
+    },
+    "Winners": [
+      {
+        "Sportsman": {
+          "Name": "Петр",
+          "SecondName": "Петров",
+          "Patronymic": "Петрович",
+          "Code": 54,
+          "ParticipationInClub": {
+            "Name": "Победители",
+            "Sport": {
+              "Code": "12.12.20.20.205",
+              "Name": "Футбол"
+            },
+            "Members": []
+          },
+          "SportInfoList": [
+            {
+              "Sport": {
+                "Code": "0010002611Я",
+                "Name": "Футбол"
+              },
+              "Category": 4,
+              "Coaches": [
+                {
+                  "Name": "Татьяна",
+                  "SecondName": "Иванова",
+                  "Patronymic": "Ивановна",
+                  "Title": "Заслуженный мастер спорта России",
+                  "Sport": {
+                    "Code": "0010002611Я",
+                    "Name": "Футбол"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            }
+          ],
+          "ParticipationInCompetition": [
+            {
+              "Name": "Соревнование по футболу",
+              "Code": "FOOTBALL2024",
+              "Begin": "2024-08-20T00:00:00",
+              "End": "2024-09-01T00:00:00",
+              "Type": {
+                "Code": "0010002611Я",
+                "Name": "Футбол"
+              },
+              "Organizer": {
+                "Name": "Юрьев Юрий Юрьевич",
+                "Type": "Организатор",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 46000,
+                "SportFacilityCode": "22.111001031",
+                "Name": "Спартак",
+                "YearOfConstruction": 2014,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            }
+          ]
+        },
+        "Place": 1
+      },
+      {
+        "Sportsman": {
+          "Name": "Екатерина",
+          "SecondName": "Антонова",
+          "Patronymic": "Анатольевна",
+          "Code": 1,
+          "ParticipationInClub": {
+            "Name": "Победители",
+            "Sport": {
+              "Code": "12.12.20.20.205",
+              "Name": "Футбол"
+            },
+            "Members": []
+          },
+          "SportInfoList": [
+            {
+              "Sport": {
+                "Code": "0010002611Я",
+                "Name": "Футбол"
+              },
+              "Category": 5,
+              "Coaches": [
+                {
+                  "Name": "Татьяна",
+                  "SecondName": "Иванова",
+                  "Patronymic": "Ивановна",
+                  "Title": "Заслуженный мастер спорта России",
+                  "Sport": {
+                    "Code": "0010002611Я",
+                    "Name": "Футбол"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            },
+            {
+              "Sport": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Category": 3,
+              "Coaches": [
+                {
+                  "Name": "Павел",
+                  "SecondName": "Павлов",
+                  "Patronymic": "Павлович",
+                  "Title": "",
+                  "Sport": {
+                    "Code": "0070011611Я",
+                    "Name": "Плавание"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            }
+          ],
+          "ParticipationInCompetition": [
+            {
+              "Name": "Чемпионат по плаванию",
+              "Code": "SWIM2023",
+              "Begin": "2023-06-01T00:00:00",
+              "End": "2023-06-05T00:00:00",
+              "Type": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Organizer": {
+                "Name": "Федерация плавания",
+                "Type": "Организация",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 500,
+                "SportFacilityCode": "04.1000000.2.3",
+                "Name": "Нептун",
+                "YearOfConstruction": 1969,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            },
+            {
+              "Name": "Соревнование по футболу",
+              "Code": "FOOTBALL2024",
+              "Begin": "2024-08-20T00:00:00",
+              "End": "2024-09-01T00:00:00",
+              "Type": {
+                "Code": "0010002611Я",
+                "Name": "Футбол"
+              },
+              "Organizer": {
+                "Name": "Юрьев Юрий Юрьевич",
+                "Type": "Организатор",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 46000,
+                "SportFacilityCode": "22.111001031",
+                "Name": "Спартак",
+                "YearOfConstruction": 2014,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            }
+          ]
+        },
+        "Place": 2
+      }
+    ]
+  },
+  {
+    "Name": "Турнир по баскетболу",
+    "Code": "BASKET2024",
+    "Begin": "2024-07-10T00:00:00",
+    "End": "2024-07-15T00:00:00",
+    "Type": {
+      "Code": "0140002611Я",
+      "Name": "Баскетбол"
+    },
+    "Organizer": {
+      "Name": "Юрьев Юрий Юрьевич",
+      "Type": "Организатор",
+      "HeldCompetitions": [
+        {
+          "Name": "Турнир по баскетболу",
+          "Code": "BASKET2024",
+          "Begin": "2024-07-10T00:00:00",
+          "End": "2024-07-15T00:00:00",
+          "Type": {
+            "Code": "0140002611Я",
+            "Name": "Баскетбол"
+          },
+          "Organizer": {
+            "Name": "Федерация баскетбола",
+            "Type": "Организация",
+            "HeldCompetitions": []
+          },
+          "Location": {
+            "Capacity": 500,
+            "SportFacilityCode": "15.100000011",
+            "Name": "Манеж легкоатлетический",
+            "YearOfConstruction": 2020,
+            "CompetitionsHeld": []
+          },
+          "Winners": []
+        },
+        {
+          "Name": "Соревнование по футболу",
+          "Code": "FOOTBALL2024",
+          "Begin": "2024-08-20T00:00:00",
+          "End": "2024-09-01T00:00:00",
+          "Type": {
+            "Code": "0010002611Я",
+            "Name": "Футбол"
+          },
+          "Organizer": {
+            "Name": "Федерация баскетбола",
+            "Type": "Организация",
+            "HeldCompetitions": []
+          },
+          "Location": {
+            "Capacity": 46000,
+            "SportFacilityCode": "22.111001031",
+            "Name": "Спартак",
+            "YearOfConstruction": 2014,
+            "CompetitionsHeld": []
+          },
+          "Winners": []
+        }
+      ]
+    },
+    "Location": {
+      "Capacity": 500,
+      "SportFacilityCode": "15.100000011",
+      "Name": "Манеж легкоатлетический",
+      "YearOfConstruction": 2020,
+      "CompetitionsHeld": []
+    },
+    "Winners": [
+      {
+        "Sportsman": {
+          "Name": "Иван",
+          "SecondName": "Иванов",
+          "Patronymic": "Алексеевич",
+          "Code": 34,
+          "ParticipationInClub": {
+            "Name": "Успех",
+            "Sport": {
+              "Code": "0140002611Я",
+              "Name": "Баскетбол"
+            },
+            "Members": []
+          },
+          "SportInfoList": [
+            {
+              "Sport": {
+                "Code": "0140002611Я",
+                "Name": "Баскетбол"
+              },
+              "Category": 5,
+              "Coaches": [
+                {
+                  "Name": "Сергей",
+                  "SecondName": "Сидоров",
+                  "Patronymic": "Сергеевич",
+                  "Title": "Заслуженный тренер Роcсии",
+                  "Sport": {
+                    "Code": "0140002611Я",
+                    "Name": "Баскетбол"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            },
+            {
+              "Sport": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Category": 4,
+              "Coaches": [
+                {
+                  "Name": "Павел",
+                  "SecondName": "Павлов",
+                  "Patronymic": "Павлович",
+                  "Title": "",
+                  "Sport": {
+                    "Code": "0070011611Я",
+                    "Name": "Плавание"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            }
+          ],
+          "ParticipationInCompetition": [
+            {
+              "Name": "Чемпионат по плаванию",
+              "Code": "SWIM2023",
+              "Begin": "2023-06-01T00:00:00",
+              "End": "2023-06-05T00:00:00",
+              "Type": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Organizer": {
+                "Name": "Федерация баскетбола",
+                "Type": "Организация",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 500,
+                "SportFacilityCode": "04.1000000.2.3",
+                "Name": "Нептун",
+                "YearOfConstruction": 1969,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            },
+            {
+              "Name": "Турнир по баскетболу",
+              "Code": "BASKET2024",
+              "Begin": "2024-07-10T00:00:00",
+              "End": "2024-07-15T00:00:00",
+              "Type": {
+                "Code": "0140002611Я",
+                "Name": "Баскетбол"
+              },
+              "Organizer": {
+                "Name": "Федерация баскетбола",
+                "Type": "Организация",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 500,
+                "SportFacilityCode": "15.100000011",
+                "Name": "Манеж легкоатлетический",
+                "YearOfConstruction": 2020,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            }
+          ]
+        },
+        "Place": 1
+      }
+    ]
+  },
+  {
+    "Name": "Соревнование по фигурному катанию",
+    "Code": "FIGURESKATING2023",
+    "Begin": "2023-11-01T00:00:00",
+    "End": "2023-11-10T00:00:00",
+    "Type": {
+      "Code": "0500013611Я",
+      "Name": "Фигурное катание"
+    },
+    "Organizer": {
+      "Name": "Федерация фигурного катания",
+      "Type": "Организация",
+      "HeldCompetitions": [
+        {
+          "Name": "Соревнование по фигурному катанию",
+          "Code": "FIGURESKATING2023",
+          "Begin": "2023-11-01T00:00:00",
+          "End": "2023-11-10T00:00:00",
+          "Type": {
+            "Code": "0500013611Я",
+            "Name": "Фигурное катание"
+          },
+          "Organizer": {
+            "Name": "Федерация баскетбола",
+            "Type": "Организация",
+            "HeldCompetitions": []
+          },
+          "Location": {
+            "Capacity": 12000,
+            "SportFacilityCode": "12.12.11.12.222",
+            "Name": "Сибирь-Арена",
+            "YearOfConstruction": 2022,
+            "CompetitionsHeld": []
+          },
+          "Winners": []
+        }
+      ]
+    },
+    "Location": {
+      "Capacity": 12000,
+      "SportFacilityCode": "12.12.11.12.222",
+      "Name": "Сибирь-Арена",
+      "YearOfConstruction": 2022,
+      "CompetitionsHeld": []
+    },
+    "Winners": [
+      {
+        "Sportsman": {
+          "Name": "Елизавета",
+          "SecondName": "Васильева",
+          "Patronymic": "Владимировна",
+          "Code": 45,
+          "ParticipationInClub": {
+            "Name": "Чемпионы",
+            "Sport": {
+              "Code": "0070011611Я",
+              "Name": "Плавание"
+            },
+            "Members": []
+          },
+          "SportInfoList": [
+            {
+              "Sport": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Category": 6,
+              "Coaches": []
+            },
+            {
+              "Sport": {
+                "Code": "0500013611Я",
+                "Name": "Фигурное катание"
+              },
+              "Category": 4,
+              "Coaches": [
+                {
+                  "Name": "Анастасия",
+                  "SecondName": "Борисова",
+                  "Patronymic": "Борисовна",
+                  "Title": "Заслуженный тренер России",
+                  "Sport": {
+                    "Code": "0500013611Я",
+                    "Name": "Фигурное катание"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            }
+          ],
+          "ParticipationInCompetition": [
+            {
+              "Name": "Чемпионат по плаванию",
+              "Code": "SWIM2023",
+              "Begin": "2023-06-01T00:00:00",
+              "End": "2023-06-05T00:00:00",
+              "Type": {
+                "Code": "0070011611Я",
+                "Name": "Плавание"
+              },
+              "Organizer": {
+                "Name": "Федерация плавания",
+                "Type": "Организация",
+                "HeldCompetitions": []
+              },
+              "Location": {
+                "Capacity": 500,
+                "SportFacilityCode": "04.1000000.2.3",
+                "Name": "Нептун",
+                "YearOfConstruction": 1969,
+                "CompetitionsHeld": []
+              },
+              "Winners": []
+            }
+          ]
+        },
+        "Place": 1
+      },
+      {
+        "Sportsman": {
+          "Name": "Дарья",
+          "SecondName": "Смирнова",
+          "Patronymic": "Александровна",
+          "Code": 7,
+          "ParticipationInClub": {
+            "Name": "Фигуристы",
+            "Sport": {
+              "Code": "20.20.20.222.21",
+              "Name": "Фигурное катание"
+            },
+            "Members": []
+          },
+          "SportInfoList": [
+            {
+              "Sport": {
+                "Code": "0500013611Я",
+                "Name": "Фигурное катание"
+              },
+              "Category": 3,
+              "Coaches": [
+                {
+                  "Name": "Анастасия",
+                  "SecondName": "Борисова",
+                  "Patronymic": "Борисовна",
+                  "Title": "Заслуженный тренер России",
+                  "Sport": {
+                    "Code": "0500013611Я",
+                    "Name": "Фигурное катание"
+                  },
+                  "Sportsmen": []
+                }
+              ]
+            }
+          ],
+          "ParticipationInCompetition": []
+        },
+        "Place": 2
+      }
+    ]
+  }
+]

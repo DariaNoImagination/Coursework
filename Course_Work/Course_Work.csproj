@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{12257EC1-7DB7-477F-AFE5-57F1C9EB0CB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Course_Work</RootNamespace>
+    <AssemblyName>Course_Work</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddChangeForm.Designer.cs">
+      <DependentUpon>AddChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddChangeForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddChangeForm2.Designer.cs">
+      <DependentUpon>AddChangeForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClubsForm\Club.cs" />
+    <Compile Include="ClubsForm\ClubsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClubsForm\ClubsForm.Designer.cs">
+      <DependentUpon>ClubsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoachForm\Coach.cs" />
+    <Compile Include="CoachForm\CoachesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoachForm\CoachesForm.Designer.cs">
+      <DependentUpon>CoachesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoachForm\SortCoaches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoachForm\SortCoaches.Designer.cs">
+      <DependentUpon>SortCoaches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompetitionsForm\AddCompetition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompetitionsForm\AddCompetition.Designer.cs">
+      <DependentUpon>AddCompetition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompetitionsForm\ChangeCompetition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompetitionsForm\ChangeCompetition.Designer.cs">
+      <DependentUpon>ChangeCompetition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompetitionsForm\Competition.cs" />
+    <Compile Include="CompetitionsForm\CompetitionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompetitionsForm\CompetitionsForm.Designer.cs">
+      <DependentUpon>CompetitionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete.Designer.cs">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizersForm\Organizer.cs" />
+    <Compile Include="OrganizersForm\OrganizersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrganizersForm\OrganizersForm.Designer.cs">
+      <DependentUpon>OrganizersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SortClubs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SortClubs.Designer.cs">
+      <DependentUpon>SortClubs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SortCompetitions2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SortCompetitions2.Designer.cs">
+      <DependentUpon>SortCompetitions2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\AddFacility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\AddFacility.Designer.cs">
+      <DependentUpon>AddFacility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\ChangeFacility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\ChangeFacility.Designer.cs">
+      <DependentUpon>ChangeFacility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\FacilitiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\FacilitiesForm.Designer.cs">
+      <DependentUpon>FacilitiesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\SortCompetitions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\SortCompetitions.Designer.cs">
+      <DependentUpon>SortCompetitions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\SortFacilities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\SortFacilities.Designer.cs">
+      <DependentUpon>SortFacilities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportFacilitiesForm\SportFacilities.cs" />
+    <Compile Include="SportForm\Sport.cs" />
+    <Compile Include="SportForm\SportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportForm\SportsForm.Designer.cs">
+      <DependentUpon>SportsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmenForm\sortSportsmen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportsmenForm\sortSportsmen.Designer.cs">
+      <DependentUpon>sortSportsmen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportsmenForm\Sportsman.cs" />
+    <Compile Include="SportsmenForm\SportsmenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportsmenForm\SportsmenForm.Designer.cs">
+      <DependentUpon>SportsmenForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddChangeForm.resx">
+      <DependentUpon>AddChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddChangeForm2.resx">
+      <DependentUpon>AddChangeForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClubsForm\ClubsForm.resx">
+      <DependentUpon>ClubsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoachForm\CoachesForm.resx">
+      <DependentUpon>CoachesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoachForm\SortCoaches.resx">
+      <DependentUpon>SortCoaches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompetitionsForm\AddCompetition.resx">
+      <DependentUpon>AddCompetition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompetitionsForm\ChangeCompetition.resx">
+      <DependentUpon>ChangeCompetition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompetitionsForm\CompetitionsForm.resx">
+      <DependentUpon>CompetitionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrganizersForm\OrganizersForm.resx">
+      <DependentUpon>OrganizersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SortClubs.resx">
+      <DependentUpon>SortClubs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SortCompetitions2.resx">
+      <DependentUpon>SortCompetitions2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportFacilitiesForm\AddFacility.resx">
+      <DependentUpon>AddFacility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportFacilitiesForm\ChangeFacility.resx">
+      <DependentUpon>ChangeFacility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportFacilitiesForm\FacilitiesForm.resx">
+      <DependentUpon>FacilitiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportFacilitiesForm\SortCompetitions.resx">
+      <DependentUpon>SortCompetitions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportFacilitiesForm\SortFacilities.resx">
+      <DependentUpon>SortFacilities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportForm\SportsForm.resx">
+      <DependentUpon>SportsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsmenForm\sortSportsmen.resx">
+      <DependentUpon>sortSportsmen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsmenForm\SportsmenForm.resx">
+      <DependentUpon>SportsmenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

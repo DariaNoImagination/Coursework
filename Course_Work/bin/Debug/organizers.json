@@ -1,0 +1,117 @@
+[
+  {
+    "Name": "Федерация фигурного катания",
+    "Type": "Организация",
+    "HeldCompetitions": [
+      {
+        "Name": "Соревнование по фигурному катанию",
+        "Code": "FIGURESKATING2023",
+        "Begin": "2023-11-01T00:00:00",
+        "End": "2023-11-10T00:00:00",
+        "Type": {
+          "Code": "0500013611Я",
+          "Name": "Фигурное катание"
+        },
+        "Organizer": {
+          "Name": "Федерация баскетбола",
+          "Type": "Организация",
+          "HeldCompetitions": []
+        },
+        "Location": {
+          "Capacity": 12000,
+          "SportFacilityCode": "12.12.11.12.222",
+          "Name": "Сибирь-Арена",
+          "YearOfConstruction": 2022,
+          "CompetitionsHeld": []
+        },
+        "Winners": []
+      }
+    ]
+  },
+  {
+    "Name": "Юрьев Юрий Юрьевич",
+    "Type": "Организатор",
+    "HeldCompetitions": [
+      {
+        "Name": "Турнир по баскетболу",
+        "Code": "BASKET2024",
+        "Begin": "2024-07-10T00:00:00",
+        "End": "2024-07-15T00:00:00",
+        "Type": {
+          "Code": "0140002611Я",
+          "Name": "Баскетбол"
+        },
+        "Organizer": {
+          "Name": "Федерация баскетбола",
+          "Type": "Организация",
+          "HeldCompetitions": []
+        },
+        "Location": {
+          "Capacity": 500,
+          "SportFacilityCode": "15.100000011",
+          "Name": "Манеж легкоатлетический",
+          "YearOfConstruction": 2020,
+          "CompetitionsHeld": []
+        },
+        "Winners": []
+      },
+      {
+        "Name": "Соревнование по футболу",
+        "Code": "FOOTBALL2024",
+        "Begin": "2024-08-20T00:00:00",
+        "End": "2024-09-01T00:00:00",
+        "Type": {
+          "Code": "0010002611Я",
+          "Name": "Футбол"
+        },
+        "Organizer": {
+          "Name": "Федерация баскетбола",
+          "Type": "Организация",
+          "HeldCompetitions": []
+        },
+        "Location": {
+          "Capacity": 46000,
+          "SportFacilityCode": "22.111001031",
+          "Name": "Спартак",
+          "YearOfConstruction": 2014,
+          "CompetitionsHeld": []
+        },
+        "Winners": []
+      }
+    ]
+  },
+  {
+    "Name": "Федерация плавания",
+    "Type": "Организация",
+    "HeldCompetitions": [
+      {
+        "Name": "Чемпионат по плаванию",
+        "Code": "SWIM2023",
+        "Begin": "2023-06-01T00:00:00",
+        "End": "2023-06-05T00:00:00",
+        "Type": {
+          "Code": "0070011611Я",
+          "Name": "Плавание"
+        },
+        "Organizer": {
+          "Name": "Федерация баскетбола",
+          "Type": "Организация",
+          "HeldCompetitions": []
+        },
+        "Location": {
+          "Capacity": 500,
+          "SportFacilityCode": "04.1000000.2.3",
+          "Name": "Нептун",
+          "YearOfConstruction": 1969,
+          "CompetitionsHeld": []
+        },
+        "Winners": []
+      }
+    ]
+  },
+  {
+    "Name": "Федерация тенниса",
+    "Type": "Организация",
+    "HeldCompetitions": []
+  }
+]
